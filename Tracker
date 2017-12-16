@@ -1,0 +1,15 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine.UI;
+using UnityEngine;
+
+public class tracker : MonoBehaviour { 
+	public GUIText score;
+
+
+//Update is called once per frame
+ void OnTriggerEnter2D (Collider2D col) {
+	if (col.gameObject.name == "enemy") {
+}
+}
+}
